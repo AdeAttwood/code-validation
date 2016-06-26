@@ -1,0 +1,3 @@
+#!/usr/bin/php
+$htmlVal = $new CodeValidation\Html();
+$htmlVal->html5($env[1]);

@@ -1,0 +1,11 @@
+{
+    "name": "AdeAttwood/code-validation",
+    "bin":[
+        "bin/html5Val"
+    ],
+    "autoload":{
+        "psr-4":{
+            "CodeValidation\\":"src/"
+        }
+    }
+}
