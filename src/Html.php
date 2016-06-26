@@ -4,7 +4,7 @@ class Html
 {
     public static function html5($html)
     {
-        $htmlValExixutable = dirname(__DIR__ ).'/valTools/vnu.jar';
+        $htmlValExixutable = dirname(__DIR__ ).'/inc/vnu.jar';
 
         exec('java -jar 2>&1 ' . $htmlValExixutable . ' ' . $html, $errors);
         if ($errors === null) {
